@@ -1,0 +1,636 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color:#101820;
+}
+
+.pro{
+    height: 60px;
+    background-color: #101820;
+    position:absolute;
+    top: -20%;
+    left: 37%;
+    animation-name: aboutp;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.pro p{
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Sansita", sans-serif;
+}
+
+@keyframes aboutp{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 10%;
+    }
+}
+
+.look{
+    height: 60px;
+    position: absolute;
+    top: -20%;
+    left: 24%;
+    animation-name: aboutl;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.look p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+}
+
+@keyframes aboutl{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 25%;
+    }
+}
+
+.cards{
+    height:50%;
+    width: 40%;
+    background-color: #fcfcfc;
+    position: absolute;
+    top: -20%;
+    left: 28%;
+    border: 2px solid black;
+    border-radius: 24px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    animation-name: aboutm;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aboutm{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 45%;
+    }
+}
+
+
+.img{
+    position: relative;
+    width: 96%;
+    height: 70%;
+    top: 2%;
+    left: 2%;
+    border-radius: 8px;
+}
+.cards .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cards p{
+    font-size: 24px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.link{
+    position: relative;
+    height: 35px;
+    width: 40%;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.link a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #222;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* 2nd */
+
+.cards1{
+    height:50%;
+    width: 40%;
+    background-color: #fcfcfc;
+    position: absolute;
+    top: 110%;
+    left: 28%;
+    border: 2px solid black;
+    border-radius: 24px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    animation-name: aboutn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aboutn{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 110%;
+    }
+}
+
+.img1{
+    position: relative;
+    width: 96%;
+    height: 70%;
+    top: 2%;
+    left: 2%;
+    border-radius: 8px;
+}
+.cards1 .img1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cards1 p{
+    font-size: 24px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.link1{
+    position: relative;
+    height: 35px;
+    width: 40%;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.link1 a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #222;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* 2nd end */
+
+/* 3rd */
+
+.cards2{
+    height:50%;
+    width: 40%;
+    background-color: #fcfcfc;
+    position: absolute;
+    top: -20%;
+    left: 28%;
+    border: 2px solid black;
+    border-radius: 24px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    animation-name: abouto;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abouto{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 175%;
+    }
+}
+
+.img2{
+    position: relative;
+    width: 96%;
+    height: 70%;
+    top: 2%;
+    left: 2%;
+    border-radius: 8px;
+}
+.cards2 .img2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cards2 p{
+    font-size: 24px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* 3rd end*/
+.link2{
+    position: relative;
+    height: 35px;
+    width: 40%;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.link2 a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #222;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.games{
+    position: absolute;
+    height: 60px;
+    top: 240%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    left: 40%;
+}
+
+.games p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+/*4th*/
+.cards3{
+    height:50%;
+    width: 40%;
+    background-color: #fcfcfc;
+    position: absolute;
+    top: -20%;
+    left: 28%;
+    border: 2px solid black;
+    border-radius: 24px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    animation-name: aboutk;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aboutk{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 260%;
+    }
+}
+
+.img3{
+    position: relative;
+    width: 96%;
+    height: 70%;
+    top: 2%;
+    left: 2%;
+    border-radius: 8px;
+}
+.cards3 .img3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cards3 p{
+    font-size: 24px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.link3{
+    position: relative;
+    height: 35px;
+    width: 40%;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.link3 a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #222;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.cards4{
+    height:50%;
+    width: 40%;
+    background-color: #fcfcfc;
+    position: absolute;
+    top: -20%;
+    left: 28%;
+    border: 2px solid black;
+    border-radius: 24px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    animation-name: aboutf;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aboutf{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 325%;
+    }
+}
+
+.img4{
+    position: relative;
+    width: 96%;
+    height: 70%;
+    top: 2%;
+    left: 2%;
+    border-radius: 8px;
+}
+.cards4 .img4 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cards4 p{
+    font-size: 24px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.link4{
+    position: relative;
+    height: 35px;
+    width: 40%;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.link4 a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #222;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.drop{
+    height: 60px;
+    position: absolute;
+    top: 2%;
+    left: 95%;
+}
+.drop i{
+    font-size: 30px;
+    color: white;
+}
+
+.drop:hover{
+    cursor: pointer;
+}
+
+.dropdown{
+    height: 3%;
+    width: 50%;
+    position: absolute;
+    background-image: linear-gradient(135deg, #81FFEF 10%, #F067B4 100%);
+    padding: 0.5% 0.5%;
+    z-index: 1;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    left: 45.8%;
+    top: 6%;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+
+
+.list{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 500px){
+
+     .dropdown{
+        width: 90%;
+        background-image: linear-gradient(135deg, #81FFEF 10%, #F067B4 100%);
+        left: 5%;
+        border-radius: 0;
+    }
+
+    .drop{
+        left: 90%;
+    }
+
+    .look p{
+        font-size: 18px;
+    }
+    .look{
+        left: 5%;
+    }
+
+    .pro{
+        left: 5%;
+
+    }
+    .pro p{
+        font-size: 40px;
+    }
+    
+
+    .cards{
+        width: 86%;
+        left: 7%;
+        height: 40%;
+    }
+    .cards p{
+        font-size: 18px;
+    }
+    .link{
+        margin-top: 5px;
+        width: 45%;
+    }
+
+    
+
+    
+
+    .cards1{
+        width: 86%;
+        left: 7%;
+        top: -20%;
+        height: 40%;
+    }
+    
+    .cards1 p{
+        font-size: 18px;
+    }
+    .link1{
+        margin-top: 5px;
+        width: 45%;
+    }
+
+    @keyframes aboutn{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 90%;
+    }
+}
+
+    .cards2{
+        width: 86%;
+        left: 7%;
+        top: -20%;
+        height: 40%;
+    }
+    .cards2 p{
+        font-size: 18px;
+    }
+    .link2{
+        margin-top: 5px;
+        width: 45%;
+    }
+
+    @keyframes abouto{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 135%;
+    }
+}
+
+    .cards3{
+        width: 86%;
+        left: 7%;
+        height: 40%;
+        top: -20%;
+    }
+    .cards3 p{
+        font-size: 18px;
+    }
+    .link3{
+        margin-top: 5px;
+        width: 45%;
+    }
+
+    @keyframes aboutk{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 190%;
+    }
+}
+
+    .games{
+        left: 8%;
+        top: 180%;
+    }
+    .games p{
+        font-size: 24px;
+    }
+
+    .cards4{
+        width: 86%;
+        left: 7%;
+        height: 40%;
+        top: -20%;
+    }
+    .cards4 p{
+        font-size: 18px;
+    }
+
+    @keyframes aboutf{
+    0%{
+        top: -20%;
+    }
+    100%{
+        top: 235%;
+    }
+}
+
+    .link4{
+        margin-top: 5px;
+        width: 45%;
+    }
+}
